@@ -29,6 +29,10 @@ Initialize database:
 
     src/manage.py migrate
 
+Create a superuser:
+
+    src/manage.py createsuperuser
+
 Start the development server:
 
     src/manage.py runserver
