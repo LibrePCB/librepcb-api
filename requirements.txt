@@ -1,0 +1,10 @@
+# Base
+Django==1.8.14
+pytz==2016.6.1
+psycopg2==2.6.2
+dj-database-url==0.4.1
+
+# API
+djangorestframework==3.4.4
+djangorestframework-camel-case==0.2.0
+Markdown==2.6.6
