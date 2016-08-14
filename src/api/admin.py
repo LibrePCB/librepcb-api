@@ -1,3 +1,13 @@
 from django.contrib import admin
 
-# Register your models here.
+from . import models
+
+
+@admin.register(models.Publisher)
+class PublisherAdmin(admin.ModelAdmin):
+    pass
+
+
+@admin.register(models.Library)
+class LibraryAdmin(admin.ModelAdmin):
+    pass

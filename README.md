@@ -6,7 +6,7 @@ The API is implemented with Django REST Framework on Python 3.
 
 Create a virtualenv:
 
-    pyvenv VIRTUAL
+    python3 -m venv VIRTUAL
 
 Export some environment variables:
 
