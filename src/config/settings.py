@@ -106,6 +106,7 @@ else:
     EMAIL_HOST_PASSWORD = require_env('SMTP_PASS')
     EMAIL_PORT = require_env('SMTP_PORT')
     EMAIL_USE_TLS = require_env('SMTP_USE_TLS') in true_values
+    SERVER_EMAIL = 'django@api.librepcb.org'
 
 
 # Internationalization
