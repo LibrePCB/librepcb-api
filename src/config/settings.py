@@ -36,7 +36,7 @@ SECRET_KEY = env('SECRET_KEY', 'debug')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = env('DJANGO_DEBUG', 'false').lower() in true_values
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['api.librepcb.org']
 
 ADMIN_EMAIL = env('ADMIN_EMAIL')
 if ADMIN_EMAIL:
